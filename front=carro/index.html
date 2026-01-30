@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitema Automotivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Carros</h1>
+    <form id="formCarro">
+        <input type="text" id="marca" placeholder="Marca" required>
+        <input type="text" id="modelo" placeholder="Modelo" required>
+        <input type="number" id="ano" placeholder="Ano" required>
+        <input type="number" id="preco" placeholder="Preço" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Lista de Carros</h2>
+    <div id="listaCarros"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
